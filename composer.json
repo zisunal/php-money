@@ -1,0 +1,18 @@
+{
+    "name": "zisunal/php-money",
+    "description": "A PHP Class that will create a new type called Money and will handle all the money related tasks",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zisunal\\PhpMoney\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zisunal",
+            "email": "alzisun1111@gmail.com"
+        }
+    ],
+    "require": {}
+}
