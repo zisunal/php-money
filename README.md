@@ -5,10 +5,10 @@ A PHP Class that will create a new type called Money and will handle all the mon
 
 To use the Money class, follow these steps:
 
-1. Include the Money class file in your PHP script:
+1. Install the Php Money package from Composer:
 
-    ```php
-    require_once 'path/to/Money.php';
+    ```terminal
+    composer require zisunal/php-money
     ```
 
 2. Create a new instance of the Money class:
