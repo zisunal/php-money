@@ -11,7 +11,13 @@ To use the Money class, follow these steps:
     composer require zisunal/php-money
     ```
 
-2. Create a new instance of the Money class:
+2. Use the money class in your project:
+
+    ```php
+    use Zisunal\Money;
+    ```
+
+3. Create a new instance of the Money class:
 
     ```php
     $money = new Money('Money Name', 'Money ISO Code', 'Money Symbol', 'Exchange Rate with USD');
@@ -19,9 +25,9 @@ To use the Money class, follow these steps:
 
     The constructor takes four arguments: Money Name, Money ISO Code, Money Symbol, and Exchange Rate with USD
 
-3. Perform money-related tasks using the available methods using the examples of index.php:
+4. Perform money-related tasks using the available methods using the examples of index.php:
 
-4. Enjoy using the Money class for all your money-related tasks!
+5. Enjoy using the Money class for all your money-related tasks!
 
 ## License
 
@@ -36,4 +42,3 @@ Contributions are welcome! If you would like to contribute to this project, plea
 3. Submit a pull request with a clear description of your changes.
 
 Thank you for considering contributing to php-money!
-
