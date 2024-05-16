@@ -1,5 +1,5 @@
 <?php
-//This are examples of using Money Class
+//These are examples of using Money Class
 require_once 'vendor/autoload.php';
 use Zisunal\Money;
 
